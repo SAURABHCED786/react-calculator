@@ -1,3 +1,8 @@
+@font-face {
+  font-family: LiquidCrystal;
+  src: url(./LiquidCrystal-Normal.otf);
+}
+
 .App {
   text-align: center;
 }
@@ -94,8 +99,8 @@
   padding: 15px;
   border-radius: 15px;
   box-shadow: inset 1px 1px 10px 1px black;
-  font-size: 30px;
-  font-weight: bold;
+  font-family: 'Liquid Crystal', LiquidCrystal;
+  text-align: right;
 }
 
 #calculator {
@@ -161,14 +166,10 @@
   border: none;
   padding: 15px;
   border-radius: 15px;
-
   background-color: #E5FCC2;
   box-shadow: inset 1px 1px 10px 1px black;
   color: #594F4F;
-  font-size: 30px;
-  font-weight: bold;
   user-select: none;
-
 }
 
 .show-calculation {
@@ -179,7 +180,7 @@
 }
 
 .result-calculation {
-  font-size: 24px;
+  font-size: 30px;
   flex: 1;
   display: flex;
   justify-content: right;
